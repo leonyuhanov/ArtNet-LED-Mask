@@ -5,7 +5,7 @@ This is an example that can be used to apply to any mapped addresable pixel syst
 # LED Mask
 Please modify the code with your local network WIFI details
 
-Consists of 370 x SK9822 Pixels driven by an ESP8266 Wemos D1 Mini
+Consists of 378 x SK9822 Pixels driven by an ESP8266 Wemos D1 Mini
 
 The ESP8266 has a Single pixel connected very close to the board(this acts as a voltage level shifter) to Pin 5(CLOCK), Pin 7(data),+5v and GND. The pixel then connectes directly to the MASK via a 4pin JST
 
