@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Fixture name="Fixture" uuid="2217f69562404a9a9349bff683ef98a8" fixtureName="7-down">
+	<Params name="Params">
+		<ParamFixturePixels storage="0" name="Pixels" xmlVersion="2">
+			<ParamRange name="Width" default="1" value="1">
+				<ValueRange name="defaultRange" min="1" max="512"/>
+				<BehaviourDouble name="BehaviourDouble">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</BehaviourDouble>
+			</ParamRange>
+			<ParamRange name="Height" default="1" value="7">
+				<ValueRange name="defaultRange" min="1" max="512"/>
+				<BehaviourDouble name="BehaviourDouble">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</BehaviourDouble>
+			</ParamRange>
+			<ParamChoice name="Color Space" default="rgb" value="rgb" storeChoices="0"/>
+			<ParamChoice name="Distribution" default="170" value="166" storeChoices="0"/>
+			<ParamRange name="Gamma" default="2.5" value="2.5">
+				<ValueRange name="defaultRange" min="1" max="3"/>
+				<BehaviourDouble name="BehaviourDouble">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</BehaviourDouble>
+			</ParamRange>
+		</ParamFixturePixels>
+	</Params>
+</Fixture>
+
